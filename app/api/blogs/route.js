@@ -10,6 +10,7 @@ export async function GET( request ) {
     }
 
     return Response.json(blogs)
+    
 }
 
 export async function POST(request){
